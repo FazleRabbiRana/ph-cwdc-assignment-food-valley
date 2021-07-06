@@ -10,11 +10,11 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	background: #fff;
-	color: #000;
+	color: #212121;
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 44px;
 }
 
 h2 {
@@ -36,6 +36,8 @@ img {
 
 .title-text {
 	color: #777;
+	text-transform: capitalize;
+	margin-bottom: 20px;
 }
 
 .primary-color {
@@ -51,12 +53,20 @@ img {
 	margin: 0 auto;
 }
 
+.flex-container {
+	display: flex;
+}
+
+.half-width {
+	width: 50%;
+}
+
 .link-btn {
 	display: inline-block;
-	padding: 10px 50px;
+	padding: 10px 30px;
 	background-image: linear-gradient(25deg, #fe472d, #ff882d);
 	color: #fff;
-	border-radius: 10px;
+	border-radius: 50px;
 	transition: all 0.3s ease;
 }
 
@@ -72,8 +82,7 @@ header {
 	box-shadow: 0 1px 10px rgba(0,0,0,0.15);
 }
 
-header .container {
-	display: flex;
+header .flex-container {
 	justify-content: space-between;
 	align-items: center;
 }
@@ -105,29 +114,42 @@ header .container {
 }
 
 /**
-* Banner area
+* Banner section
 */
-.banner-area {
+#banner-section {
 	padding-top: 30px;
 }
 
-.banner-area .container {
-	display: flex;
+#banner-section .flex-container {
 	align-items: center;
 }
 
-.banner-area h1 {
-	text-transform: capitalize;
+#banner-section p {
+	margin-bottom: 20px;
 }
 
-.banner-area p {
-	margin: 20px 0;
-}
-
-.banner-image {
+#banner-image {
 	text-align: center;
 }
 
-.banner-image img {
-	width: 80%;
+/**
+* About section
+*/
+#about-section {
+	padding-top: 50px;
+	background-image: url(./images/bg-1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#about-section .flex-container {
+	align-items: center;
+}
+
+#about-section .link-btn {
+	margin-top: 70px;
+}
+
+#about-image img {
+	max-width: 60%;
 }
