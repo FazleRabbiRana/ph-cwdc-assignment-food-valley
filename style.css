@@ -9,6 +9,7 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
+	line-height: 1.7;
 	background: #fff;
 	color: #212121;
 }
@@ -152,4 +153,47 @@ header .flex-container {
 
 #about-image img {
 	max-width: 60%;
+	padding-left: 50px;
+}
+
+/**
+* Recipes section
+*/
+#recipes-section {
+	padding: 50px 0;
+}
+
+.heading {
+	max-width: 70%;
+	margin: 0 auto 30px;
+	text-align: center;
+}
+
+.all-recipes {
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.single-recipe {
+	width: 31%;
+	border-radius: 15px;
+	padding: 15px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+.recipe-image {
+	width: 100%;
+	height: 220px;
+	border-radius: 15px;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+.recipe-image img {
+	width: 100%;
+	max-height: 100%;
+}
+
+.recipe-text p {
+	margin-top: 10px;
 }
