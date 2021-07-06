@@ -5,6 +5,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -19,11 +20,15 @@ h1 {
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 38px;
 }
 
 h3 {
 	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
 }
 
 a {
@@ -50,7 +55,7 @@ section {
 }
 
 .secondary-color {
-	color: #FE472D;
+	color: #fe472d;
 }
 
 .container {
@@ -220,6 +225,30 @@ header .flex-container {
 
 .counter-item {
 	display: inline-block;
+}
+
+/**
+* Contact section
+*/
+.contact-methods {
+	justify-content: center;
+	text-align: center;
+}
+
+.contact-method {
+	width: 40%;
+	height: 150px;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 30px;
+	border: 10px solid;
+	border-image: linear-gradient(to bottom, #fe472d, #ff882d);
+	border-image-slice: 1;
+	border-radius: 15px;
+}
+
+.contact-method h3 {
+	font-weight: normal;
 }
 
 /**
