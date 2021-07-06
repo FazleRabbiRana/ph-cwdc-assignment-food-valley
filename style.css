@@ -35,6 +35,10 @@ img {
 	max-width: 100%;
 }
 
+section {
+	margin-bottom: 80px;
+}
+
 .title-text {
 	color: #777;
 	text-transform: capitalize;
@@ -160,7 +164,7 @@ header .flex-container {
 * Recipes section
 */
 #recipes-section {
-	padding: 50px 0;
+	padding-bottom: 50px;
 }
 
 .heading {
@@ -187,6 +191,7 @@ header .flex-container {
 	border-radius: 15px;
 	overflow: hidden;
 	margin-bottom: 25px;
+	background-color: #ddd;
 }
 
 .recipe-image img {
@@ -196,4 +201,40 @@ header .flex-container {
 
 .recipe-text p {
 	margin-top: 10px;
+}
+
+/**
+* Counter section
+*/
+#counter-section .container {
+	border-radius: 15px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+#counter-section .counter-items {
+	width: 70%;
+	margin: 0 auto;
+	padding: 50px 0;
+	justify-content: space-between;
+}
+
+.counter-item {
+	display: inline-block;
+}
+
+/**
+* Footer
+*/
+footer {
+	padding: 40px 0 100px;
+	text-align: center;
+	color: #fff;
+	background-color: #0B0E17;
+}
+
+.footer-logo {
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #777;
+	margin-bottom: 30px;
 }
