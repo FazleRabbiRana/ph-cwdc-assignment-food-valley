@@ -47,7 +47,7 @@ img {
 }
 
 .container {
-	max-width: 90%;
+	max-width: 80%;
 	margin: 0 auto;
 }
 
@@ -102,4 +102,32 @@ header .container {
 
 .main-menu li a:hover {
 	color: #ff882d;
+}
+
+/**
+* Banner area
+*/
+.banner-area {
+	padding-top: 30px;
+}
+
+.banner-area .container {
+	display: flex;
+	align-items: center;
+}
+
+.banner-area h1 {
+	text-transform: capitalize;
+}
+
+.banner-area p {
+	margin: 20px 0;
+}
+
+.banner-image {
+	text-align: center;
+}
+
+.banner-image img {
+	width: 80%;
 }
